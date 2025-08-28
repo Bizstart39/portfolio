@@ -25,7 +25,7 @@ I'm Fatai Toheeb—a detail-oriented designer focusing on clean UI/UX, compellin
 
 ##  Live Demo
 Explore my work live at:  
-`[https://yourusername.github.io/[repository-name]/](https://github.com/Bizstart39/portfolio/)`
+`https://bizstart39.github.io/portfolio/`
 
 ---
 
