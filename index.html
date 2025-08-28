@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fatai Toheeb | Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      background: #fff;
+      color: #111;
+      line-height: 1.6;
+    }
+    header, section, footer {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    nav a {
+      margin-right: 1rem;
+      text-decoration: none;
+      color: #000;
+      font-weight: bold;
+    }
+    .portfolio-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+    .project {
+      border: 1px solid #ddd;
+      padding: 1rem;
+    }
+    .skills {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 0.8rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+    }
+    form button {
+      padding: 0.8rem 1.2rem;
+      background: #000;
+      color: #fff;
+      border: none;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Fatai Toheeb</h1>
+    <p>Graphics Designer & UI/UX Enthusiast</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m Fatai Toheeb, a passionate Graphics Designer with a flair for UI/UX. I create impactful visual solutions that blend creativity with user-centered design. My work includes branding, UI designs, social media visuals, and print designs using tools like Figma, Photoshop, Canva, and Corel Draw.</p>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="portfolio-grid">
+      <div class="project">
+        <h3>Brewed Bold</h3>
+        <p>Coffee Shop Branding</p>
+        <img src="images/Brewed_Bold.png" alt="Brewed Bold Branding" width="100%">
+      </div>
+      <div class="project">
+        <h3>ZenFit</h3>
+        <p>Fitness App UI</p>
+        <img src="images/Zenfit_Fitness_App_UI.png" alt="ZenFit App UI" width="100%">
+      </div>
+      <div class="project">
+        <h3>FreshMart</h3>
+        <p>Grocery Website UI</p>
+        <img src="images/FreshMart_Grocery_UI.png" alt="FreshMart Website UI" width="100%">
+      </div>
+      <div class="project">
+        <h3>JollyPrints</h3>
+        <p>Poster and Flyer Design</p>
+        <img src="images/JollyPrints_Poster_Design.png" alt="Poster Design" width="100%">
+      </div>
+      <div class="project">
+        <h3>Self Promo Kit</h3>
+        <p>Brand Identity, Logo, Social Templates</p>
+        <img src="images/Self_Promo_Brand_Kit.png" alt="Promo Brand Kit" width="100%">
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <h2>Services</h2>
+    <ul>
+      <li>🔹 Logo & Brand Identity</li>
+      <li>🔹 UI/UX Design for Web & Mobile</li>
+      <li>🔹 Print Design (Flyers, Posters, Brochures)</li>
+      <li>🔹 Social Media Graphics</li>
+      <li>🔹 Website Wireframes & Prototypes</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p>Email: fataitoyeeb7@gmail.com</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com">linkedin.com/in/fataitoyeeb</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Fatai Toheeb. All rights reserved.</p>
+  </footer>
+</body>
+</html>
