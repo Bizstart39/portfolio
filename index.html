@@ -1,6 +1,74 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head><meta charset="UTF-8"><title>Fatai Portfolio</title></head>
-<body><h1>Welcome to Fatai Toheeb's Portfolio</h1></body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fatai Toheeb | Portfolio</title>
+  <style>
+    body { font-family: sans-serif; margin: 0; padding: 0; background: #fff; color: #111; }
+    header, section, footer { max-width: 900px; margin: auto; padding: 2rem; }
+    nav a { margin-right: 1rem; text-decoration: none; font-weight: bold; color: #000; }
+    .portfolio-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 1rem; }
+    .project { border: 1px solid #ddd; padding: 1rem; }
+    .project img { width: 100%; height: auto; display: block; }
+    footer { text-align: center; color: #777; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Fatai Toheeb</h1>
+    <p>Graphics Designer & UI/UX Enthusiast</p>
+    <nav>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="portfolio-grid">
+
+      <div class="project">
+        <a href="pages/eduquest.html">
+          <img src="images/project_1.png" alt="EduQuest UI Preview">
+          <h3>EduQuest UI</h3>
+        </a>
+      </div>
+      <div class="project">
+        <a href="pages/techlaunch.html">
+          <img src="images/project_2.png" alt="TechLaunch Landing Preview">
+          <h3>TechLaunch Landing</h3>
+        </a>
+      </div>
+      <div class="project">
+        <a href="pages/quickcart.html">
+          <img src="images/project_3.png" alt="QuickCart Cards Preview">
+          <h3>QuickCart Cards</h3>
+        </a>
+      </div>
+      <div class="project">
+        <a href="pages/breezepay.html">
+          <img src="images/project_4.png" alt="BreezePay UI Preview">
+          <h3>BreezePay UI</h3>
+        </a>
+      </div>
+      <div class="project">
+        <a href="pages/socially.html">
+          <img src="images/project_5.png" alt="Socially Templates Preview">
+          <h3>Socially Templates</h3>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: fataitoyeeb7@gmail.com</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com">linkedin.com/in/fataitoyeeb</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Fatai Toheeb. All rights reserved.</p>
+  </footer>
+</body>
 </html>
