@@ -25,11 +25,11 @@ I'm Fatai Toheeb—a detail-oriented designer focusing on clean UI/UX, compellin
 
 ##  Live Demo
 Explore my work live at:  
-`https://yourusername.github.io/[repository-name]/`
+`[https://yourusername.github.io/[repository-name]/](https://github.com/Bizstart39/portfolio/)`
 
 ---
 
 ##  How to Run Locally
 1. Clone the repo:
    ```bash
-   git clone https://github.com/yourusername/[repository-name].git
+   git clone [https://github.com/yourusername/[repository-name]](https://github.com/Bizstart39/portfolio/).git
